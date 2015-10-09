@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM dorowu/ubuntu-desktop-lxde-vnc
 MAINTAINER Jeddy Liu <dragon9783@126.com>
 
 ADD supervisord.conf /etc/supervisor/conf.d/
